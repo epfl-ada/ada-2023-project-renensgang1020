@@ -35,8 +35,8 @@ Does the number of breweries and variety of beer types produced by a nation infl
 
 This research question aims to delve deeper into the factors that influence beer ratings and explore the potential impact of a country's brewing industry and cultural preferences on the perception of its beers. It also seeks to add a linguistic dimension to the analysis, using natural language processing techniques to uncover insights from the textual reviews of beers.
 
-%## Proposed additional datasets 
-%> List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
+<! --- ## Proposed additional datasets 
+ List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible. --->
 
 ## Methods
 
