@@ -8,13 +8,12 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 ## 👩‍🔬 Research questions
 > A list of research questions you would like to address during the project.
 
-
 ### Question 1: Where are the beer nations?
 1. Are there countries that receive particularly good ratings on average? How does this look in subcategories of the rating, such as taste, appearance, etc.? Which country is the most beautiful beer country?
 2. What words best describe the beer nations based on the textual reviews?
 3. Which type of beer performs best in which country?
 
-### Question 2: Werden Beer nationen aus einem Bierüberfluss gebraut?
+### Question 2: Are beer nations brewed from a beer abundance?
 1. Is there a correlation between the number of breweries in a country, the variety of beer types it produces, and the overall rating of its beers?
 
 ### Question 3: IBR - International beer relations
@@ -23,17 +22,15 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 4. Is there a Beer Union with countries that are mutually enthusiastic about their beer?
 3. Is there a domestic beer pride? Do users rate beers in their home country better/worse?
 
-### Question 4: Sind Bierbewerter der größte bias?
+### Question 4: Are beer reviewers the biggest bias?
 1. Do seasoned beer reviewers have clear patterns in their ratings, and can we distinguish between those who consistently rate high, those who consistently rate low, and those who never rate below a certain threshold (e.g., 3/5)?
 2. Can we correct for these biases by decorrelating a reviewer’s “niceness” from their beer ratings?
 3. What beer nations emerge now?
-
 
 ## 💾 Proposed additional datasets
 > List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
 
 ## 👾 Methods
-
 ### Question 1: Where are the beer nations?
 1. We will calculate the average ratings and sub-ratings for each country. This will involve aggregating the data by country and computing descriptive statistics such as mean, median, and standard deviation.
 2. We will perform text analysis on the reviews to identify the most frequently occurring words for each country. This will involve tokenizing the reviews, removing stop words, and counting word frequencies.
