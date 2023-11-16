@@ -48,7 +48,7 @@ This research question aims to delve deeper into the factors that influence beer
 * Eymeric:
 * Konstantin: 
 * Nina: 
-* Parsa:
+* Parsa: Investigate first question, data assessment
   
 ## Milestone 3 
 * Christopher:
