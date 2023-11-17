@@ -10,17 +10,15 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 1. Are there countries that receive particularly good ratings on average? How does this look in subcategories of the rating, such as taste, appearance, etc.? Which is the most beautiful beer country - based on the appearance subcategory?
 2. What descriptive words are frequently used in reviews to capture the essence of beers from different nations?
 3. Which type of beer performs best in which country?
+4.  Does a higher number of breweries and a greater diversity of beer types within a country correlate with higher overall ratings for its beers?
 
-### Question 2: Are beer nations brewed from a beer abundance?
-1. Does a higher number of breweries and a greater diversity of beer types within a country correlate with higher overall ratings for its beers?
-
-### Question 3: IBR - International beer relations
+### Question 2: IBR - International beer relations
 1. From which countries do the majority of ratings for each nation's beers originate?
 2. Which country’s beers are particularly popular abroad?
 4. Is there a Beer Union with countries that are mutually enthusiastic about their beer?
 3. Is there a domestic beer pride? Do users rate beers brewed in their home country better or worse?
 
-### Question 4: Are beer reviewers the biggest bias?
+### Question 3: Are beer reviewers the biggest bias?
 1. Do seasoned beer reviewers have clear patterns in their ratings, and can we distinguish between those who consistently rate high, those who consistently rate low, and those who never rate below a certain threshold (e.g., 3/5)?
 2. Can we correct for these biases by decorrelating a reviewer’s “niceness” from their beer ratings?
 3. Which beer nations emerge now? Do our findings from questions 1-3 change?
@@ -31,17 +29,15 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 1. We will calculate the average ratings and sub-ratings for each country. This will involve aggregating the data by country and computing descriptive statistics such as mean, median, and standard deviation.
 2. We will perform frequency analysis of keywords on the reviews to identify the most frequently occurring words for each country. This will involve tokenizing the reviews, removing stop words, and counting word frequencies.
 3. We will group the data by beer type and country to identify which type of beer performs best in each country. This will involve computing average ratings for each beer type within each country.
-   
-### Question 2: Are beer nations brewed from a beer abundance?
-1. We will compute the correlation between the number of breweries, the variety of beer types, and the overall rating of beers in each country. This will involve aggregating the data by country and calculating statistical merits like Pearson's correlation coefficient.
+4. We will compute the correlation between the number of breweries, the variety of beer types, and the overall rating of beers in each country. This will involve aggregating the data by country and calculating statistical merits like Pearson's correlation coefficient.
 
-### Question 3: IBR - International beer relations
+### Question 2: IBR - International beer relations
 1. We will analyze the source of ratings for each country's beers. This will involve grouping the data by country and reviewer location.
 2. We will identify countries that are particularly popular abroad by calculating the average rating given by foreign reviewers.
 3. We will investigate if there is a bias in ratings by comparing the average ratings given to domestic beers by local reviewers with those given by foreign reviewers.
 4. We will use network analysis to identify beer nation friends, with countries as nodes and edges representing the strength of beer rating relationships between them, based on the consistency and positivity of reviews they exchange. This approach will visually highlight pairs or groups of countries with strong mutual appreciation for each other's beers.
 
-### Question 4: Are beer reviewers the biggest bias?
+### Question 3: Are beer reviewers the biggest bias?
 1. We will identify patterns in beer reviewers' ratings. This will involve computing descriptive statistics for each reviewer's ratings and identifying those who consistently rate high, low, or never below a certain threshold.
 2. We will attempt to correct for these biases by decorrelating a reviewer's "niceness" from their beer ratings. This will involve computing for example the standard deviation of each reviewer's ratings and adjusting their ratings accordingly.
 3. After these adjustments, we will recompute the 'beer nations' using our methods mentioned above to reflect a less biased perspective of international beer preferences.
@@ -63,11 +59,9 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
  - Week 11: due on 1 December
 	 - [ ] finish P3 research question 1
 	 - [ ] begin P3 research question 2
-  	 - [ ] begin P3 research question 4	
 	 - [ ] Delivery H2
  - Week 12: due on 8 December
 	 - [ ] finish P3 research question 2
-  	 - [ ] finish P3 research question 4
 	 - [ ] begin P3 research question 3
  - Week 13: due on 15 December
 	 - [ ] finish P3 research question 3
@@ -81,11 +75,11 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 > A list of internal milestones up until project Milestone P3.
 
 - Christopher
-   	- [x] Refining and additions to README
-   	- [ ] Investigating & Concluding Q3
+   	- [x] Refining and additions to README and Code
+   	- [ ] Investigating & Concluding Q2
 - Eymeric
-	- [x] Investigate Q2 (and Q1), data assessment
- 	- [ ] Concluding Q2 & Q1 
+	- [x] Investigate Q1 , data assessment
+ 	- [ ] Concluding Q1
 - Konstantin
 	- [x] Creation of the P2 README.md: Writing of abstract, research questions and methods
 	- [ ] Data analysis & Concluding Q1
@@ -93,8 +87,8 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
   	- [x] Creation of main reseach proposal
   	- [ ] Website creation   
 - Parsa
-	- [x] Investigate Q4, data assessment
- 	- [ ] Concluding Q4  
+	- [x] Investigate Q3, data assessment
+ 	- [ ] Concluding Q3  
 
 ## ❓ Questions for TAs
 
