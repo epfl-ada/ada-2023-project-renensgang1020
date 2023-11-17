@@ -71,12 +71,15 @@ None.
  - Week 11: due on 1 December
 	 - [ ] finish P3 research question 1
 	 - [ ] begin P3 research question 2
+  	 - [ ] begin P3 research question 4	
 	 - [ ] Delivery H2
  - Week 12: due on 8 December
 	 - [ ] finish P3 research question 2
+  	 - [ ] finish P3 research question 4
 	 - [ ] begin P3 research question 3
  - Week 13: due on 15 December
 	 - [ ] finish P3 research question 3
+  	 - [ ] re-assess data using possible objectivity correction
 	 - [ ] combine all results in data story
  - Week 14: due on 22 December 
 	 - [ ] Fine-tuning of P3
