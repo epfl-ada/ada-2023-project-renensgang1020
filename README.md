@@ -27,6 +27,7 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 2. Can we correct for these biases by decorrelating a reviewer’s “niceness” from their beer ratings?
 3. What beer nations emerge now?
 
+
 ## 💾 Proposed additional datasets
 > List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
 
