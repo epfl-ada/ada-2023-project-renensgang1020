@@ -81,15 +81,20 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 > A list of internal milestones up until project Milestone P3.
 
 - Christopher
-   	- [x] Investigate Q3, editing and additions to README
+   	- [x] Refining and additions to README
+   	- [ ] Investigating & Concluding Q3
 - Eymeric
 	- [x] Investigate Q2 (and Q1), data assessment
+ 	- [ ] Concluding Q2 & Q1 
 - Konstantin
 	- [x] Creation of the P2 README.md: Writing of abstract, research questions and methods
-	- [ ] Data analysis of Q1
+	- [ ] Data analysis & Concluding Q1
 - Nina
+  	- [x] Creation of main reseach proposal
+  	- [ ] Website creation   
 - Parsa
 	- [x] Investigate Q4, data assessment
+ 	- [ ] Concluding Q4  
 
 ## ❓ Questions for TAs
 
