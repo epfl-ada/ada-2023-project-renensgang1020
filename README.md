@@ -50,7 +50,7 @@ Sentimental information can be extracted from the reviewer's text. We use BERT M
 ## Organization within the team
 ## Milestone 2
 * Christopher:
-* Eymeric:
+* Eymeric: Investigate second question, data assessment
 * Konstantin: 
 * Nina: 
 * Parsa: Investigate first question, data assessment
