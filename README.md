@@ -30,7 +30,10 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 ## 💾 Proposed additional datasets
 > List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
 
+None.
+
 ## 👾 Methods
+
 ### Question 1: Where are the beer nations?
 1. We will calculate the average ratings and sub-ratings for each country. This will involve aggregating the data by country and computing descriptive statistics such as mean, median, and standard deviation.
 2. We will perform text analysis on the reviews to identify the most frequently occurring words for each country. This will involve tokenizing the reviews, removing stop words, and counting word frequencies.
@@ -39,22 +42,28 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 ### Question 2: Are beer nations brewed from a beer abundance?
 1. We will compute the correlation between the number of breweries, the variety of beer types, and the overall rating of beers in each country. This will involve aggregating the data by country and calculating statistical merits like Pearson's correlation coefficient.
 
-#### Question 3: IBR - International beer relations
+### Question 3: IBR - International beer relations
 1. We will analyze the source of ratings for each country's beers. This will involve grouping the data by country and reviewer location.
 2. We will identify countries that are particularly popular abroad by calculating the average rating given by foreign reviewers.
 3. We will examine whether users rate beers from their home country higher or lower by comparing the average ratings given by domestic and foreign reviewers.
 4. We will identify "beer nation friends" by looking for pairs or groups of countries where reviewers consistently rate each other's beers highly.
 
-#### Question 4: Are beer reviewers the biggest bias?
+### Question 4: Are beer reviewers the biggest bias?
 1. We will identify patterns in beer reviewers' ratings. This will involve computing descriptive statistics for each reviewer's ratings and identifying those who consistently rate high, low, or never below a certain threshold.
 2. We will attempt to correct for these biases by decorrelating a reviewer's "niceness" from their beer ratings. This will involve computing for example the standard deviation of each reviewer's ratings and adjusting their ratings accordingly.
 3. We will recompute the beer nations based on these adjusted ratings.
 
+#### Data related considerations
+- We will tackle the question by choosing the appropriate dataset which contains the beer reviews and user information. Our goal is to analyze patterns and tendencies in reviewers, so we can first start by looking at the distribution of the overall scores per user. Only users with a high number of reviews are considered for statistical significance.
+- In the initial assessment, we compare a small group of reviewers through boxplots illustrating the distribution of their overall ratings. We also examine the count of low ratings based on a predetermined threshold. We notice that the ratings are not normally distributed thus making metrics such as the t-test unsuitable.
+- Moving forward, our next step involves identifying “too nice users” using the user’s overall rating time series to determine whether it is stationary (in case of high ratings mean and low variance) using the Augmented Dickey-Fuller (ADF) test.
+- Sentimental information can be extracted from the reviewer’s text. We use BERT Multilingual Sentimental Analysis pre-trained model to evaluate the textual reviews. The distribution of overall ratings and sentimental analysis scores, assuming similar scales for both, is then compared using the chi-square test to assess similarity.
+- A mathematical metric is proposed to provide an “honest score” in case of significant differences between the aforementioned distributions. This will involve creating a new metric that takes into account both the overall ratings and the sentiment analysis scores, and adjusts the ratings accordingly. This new metric will be used to recompute the beer nations.
+
 
 ## ⏲ Proposed timeline
-
  - Week 9: due on 17 November
-	 - [ ] Delivery P2
+	 - [x] Delivery P2
  - Week 10: due on 24 November
 	 - [ ] Start and finish work on H2
 	 - [ ] Begin working on P3: research question 1
@@ -74,6 +83,16 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 
 ## 🤪 Organization within the team
 > A list of internal milestones up until project Milestone P3.
+
+- Christopher
+- Eymeric
+	- [x] Investigate Q2 (and Q1), data assessment
+- Konstantin
+	- [x] Creation of the P2 README.md: Writing of abstract, research questions and methods
+	- [ ] Data analysis of Q1
+- Nina
+- Parsa
+	- [x] Investigate Q4, data assessment
 
 ## ❓ Questions for TAs
 > Add here any questions you have for us related to the proposed project.
