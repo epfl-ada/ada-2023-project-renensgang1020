@@ -163,3 +163,30 @@ def get_average_per_country(ratings):
 def plot_world_map(ratings_per_country):
     fig = px.choropleth(add_alpha3_code(ratings_per_country), locations='CODE', color='rating', hover_name='brewery_location')
     fig.show()
+
+
+def drop_countries_with_less_than_n_reviews(count_df, ratings_df, n):
+    # Merge the DataFrames on the 'country' column
+    merged_df = ratings_df.merge(count_df, on='country', how='left')
+
+    # Filter out countries with count < n
+    filtered_df = merged_df[merged_df['count'] >= n]
+
+    # Drop the count column if it's no longer needed
+    return filtered_df.drop(columns=['count'])
+
+
+def keep_only_countries_in_list_and_merge_all_dfs(df1, df2, df3, df4, df5, list_of_countries):
+    # Filter each DataFrame
+    filtered_df1 = df1[df1['country'].isin(list_of_countries)]
+    filtered_df2 = df2[df2['country'].isin(list_of_countries)]
+    filtered_df3 = df3[df3['country'].isin(list_of_countries)]
+    filtered_df4 = df4[df4['country'].isin(list_of_countries)]
+    filtered_df5 = df5[df5['country'].isin(list_of_countries)]
+
+    merged_df = filtered_df1
+    for df in [filtered_df2, filtered_df3, filtered_df4, filtered_df5]:
+        merged_df = pd.merge(merged_df, df, on='country', how='outer')
+
+    return merged_df.drop(columns=['index'])
+
