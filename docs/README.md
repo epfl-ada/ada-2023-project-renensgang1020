@@ -1,9 +1,23 @@
-# ADA Template Website
-## Usage
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
-2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
-3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
-4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
-**Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
-5. Add your new `.md` files to the site by editing the `_config.yml` file in your forked repository. Under `navigation:` add a new pair of `- title:` and `url:`, and fill their value with your page name and `.md` file name. Remember to remove the `- title:` and `url:` pair for the example page.
-6. Go back to "Settings" -> "Pages" to find your website link.
+# Global Brews, Local Views: Analyzing Cross-Country Beer Preferences and Challenging Reviewer Bias
+
+## 📓 Abstract
+
+Embark on a frothy journey as we delve into the world of beer reviews, unearthing patterns and insights that lie beneath the surface. This project aims to tap into the keg of beer ratings, exploring the influence of personal biases and geographical loyalties. We aim to distill the essence of beer ratings, separating the heady influence of a reviewer’s inherent “niceness” from their sober assessment. We also seek to uncover whether patriotism intoxicates our taste buds, influencing users to rate their home brews higher. Our motivation is to pour clarity into the pint of beer ratings, understanding how personal and geographical factors can add unique flavors to our perception of taste. Join us as we raise a toast to data, and discover the story each beer review has to tell. Let’s embark on this hop-filled journey to decode the ale-chemy of beer ratings!
+
+## 👩‍🔬 Research questions
+
+### Question 1: Where are the beer nations?
+1. Are there countries that receive particularly good ratings on average? How does this look in subcategories of the rating, such as taste, appearance, etc.? Which is the most beautiful beer country - based on the appearance subcategory?
+2. Which style of beer has the most positive reviews in each country?
+3. Does a higher number of breweries and a greater diversity of beer types within a country correlate with higher overall ratings for its beers?
+
+### Question 2: IBR - International beer relations
+1. From which countries do the majority of ratings for each nation's beers originate?
+2. Which country’s beers are particularly popular abroad?
+3. Is there a Beer Union with countries that are mutually enthusiastic about their beer?
+4. Is there a domestic beer pride? Do users rate beers brewed in their home country better or worse?
+
+### Question 3: Are beer reviewers the biggest bias?
+1. Do seasoned beer reviewers have clear patterns in their ratings, and can we distinguish between those who consistently rate high, those who consistently rate low, and those who never rate below a certain threshold (e.g., 3/5)?
+2. Can we correct for these biases by decorrelating a reviewer’s “niceness” from their beer ratings?
+3. Which beer nations emerge now? Do our findings from questions 1 and 2 change?
