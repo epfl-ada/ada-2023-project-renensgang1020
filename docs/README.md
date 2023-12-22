@@ -278,9 +278,9 @@ $$  ir_i = {rating_i*(1-\alpha) + sentiment\_rating_i*\alpha } $$
 
 Where for a given user *ratings* represent the given score by the reviewer, *sentiment_rating* the sentimenal analysis score, *i* the index, and $\alpha\in[0,1]$ a balancing coefficient which has to be defined as below: 
     
-- if the distributions of *ratings* & *sentiment_rating* are **close enough** $\alpha = 0.5$ 
-- if the reviewer tends to **overrate** according to the *ratings* & *sentiment_rating* distribution differences  $  \alpha > 0.5$ 
-- if the reviewer tends to **underrate** according to the *ratings* & *sentiment_rating* distribution differences  $  \alpha < 0.5$
+- if the distributions of *ratings* & *sentiment_rating* are **close enough** $$\alpha = 0.5$$ 
+- if the reviewer tends to **overrate** according to the *ratings* & *sentiment_rating* distribution differences  $$ \alpha > 0.5$$
+- if the reviewer tends to **underrate** according to the *ratings* & *sentiment_rating* distribution differences  $$  \alpha < 0.5$$
 The final comparison of the initial ratings, sentimental analysis score on the text, and the interpolated rating  can be found below:
 
 ![q_3violon2](assets/img/q_3violon2.png)
