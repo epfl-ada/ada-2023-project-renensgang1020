@@ -51,7 +51,7 @@ Our next steps involve deep dives into understanding the favorite beer styles in
 This initial stage sets the groundwork for our exploration into the "Beer Nations." It's a celebration of diversity, both in beer styles and in the global community of those who love them. Let's raise our glasses to the insights awaiting us in the pages ahead!
 
 
-## Question 2: IBR - International Beer Relations
+## IBR - International Beer Relations
 
 ### 🌐 **Exploring the Geography of Beer**
 
@@ -189,7 +189,7 @@ This analysis suggests that there is indeed a slight but real bias towards domes
 These findings shed light on the subtle ways in which national pride and local preference can influence our perceptions and ratings of beer. It's a fascinating glimpse into the psychological aspects of beer appreciation that go beyond just taste and quality.
 
 
-## Question: 3 Are beer reviewers the biggest bias?
+## Are beer reviewers the biggest bias?
 
 #### 📚***Lets take a closer look at the ratings data*** 
 
