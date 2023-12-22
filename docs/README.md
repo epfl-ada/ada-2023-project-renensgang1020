@@ -51,6 +51,40 @@ Our next steps involve deep dives into understanding the favorite beer styles in
 This initial stage sets the groundwork for our exploration into the "Beer Nations." It's a celebration of diversity, both in beer styles and in the global community of those who love them. Let's raise our glasses to the insights awaiting us in the pages ahead!
 
 
+### **Let's investigate Beer nations**
+The concept of "Beer Nations" can be explored by examining countries with a high number of breweries and a diverse range of beer styles. Typically, countries like Belgium, Germany, and the United States are renowned for their beer culture. By analyzing the distribution of breweries and the variety of beer styles, we will identify which countries stand out as prominent beer producers and connoisseurs.
+
+![q1_1](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q1_1.png)
+
+The United States leads significantly in brewery count (41,152) and style diversity (167). This suggests a highly developed and diverse beer industry, likely offering a wide range of beer experiences from mass-produced to craft and specialty beers. Belgium and Germany, known for their beer culture, show a good balance of brewery count and style diversity (Belgium: 1,369 breweries, 130 styles; Germany: 2,131 breweries, 149 styles). This aligns with their reputation for quality and variety in beer production. High brewery count and style diversity in countries like Canada and the UK also indicate thriving beer industries. The data reveals a correlation between a country's beer culture's maturity and its diversity in beer styles.
+
+### ***Now let's look at the ratings by country***
+Some countries might excel in specific aspects, like the robust taste profiles of Belgian ales or the refined appearance of German lagers. This analysis will help in understanding which countries' beers are most favored by enthusiasts and critics alike.
+
+![q1_2](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q1_2.png)
+
+Slovenia, with high average ratings across taste, aroma, appearance, palate, and overall (around 4.6 for taste and aroma), suggests an exceptionally high quality of beer, potentially indicating a niche, high-quality beer market. Japan's high ratings (average taste rating of 4.5) indicate a preference for quality and unique flavors in their beer industry. The presence of countries like Malaysia and Tanzania with higher-than-expected ratings might suggest emerging markets with developing tastes or unique local beer styles gaining popularity.
+
+### ***Let's now analyse the popular beer styles by country***
+The results might reflect traditional preferences, like the popularity of stouts in Ireland or IPAs in the United States, or could uncover emerging trends in global beer tastes.
+![q1_3](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q1_3.png)
+
+
+The United States shows a diverse range of popular beer styles with high ratings, especially for American IPA (average rating of 3.98) and Imperial Stout (3.86). This diversity reflects the dynamic and innovative nature of the American beer market. The UK and Belgium also show diversity in popular styles, with high ratings in categories like Imperial Stout and Belgian Strong Ale, reflecting their traditional strengths. The data reflects a blend of traditional and modern styles, indicating a global trend towards variety and experimentation in beer production.
+
+### ***Finally, let's try to find a correlation between breweries, diversity and ranking***
+An analysis of the correlation between the number of breweries, diversity of beer types, and overall beer ratings in each country is an insightful undertaking. This involves examining whether countries with more breweries and a wider range of beer styles tend to have higher overall ratings for their beers. Such a correlation, if present, could suggest that a vibrant, competitive brewing scene fosters higher quality and innovation in beer production.
+
+![q1_4](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q1_4.png)
+
+**Correlation Between Brewery Count and Style Diversity:** The correlation coefficient is 0.707. This is a strong positive correlation, suggesting that countries with more breweries tend to also have a greater diversity of beer styles. This relationship implies that as the beer industry in a country expands in terms of the number of breweries, there is a parallel increase in the variety of beer styles produced. It indicates a thriving beer culture where expansion leads to innovation and variety.
+
+**Correlation Between Brewery Count and Average Overall Rating:** The correlation coefficient is 0.464. This is a moderate positive correlation. It implies that countries with more breweries tend to have higher average overall ratings for their beers, although the relationship is not as strong as with style diversity. This could suggest that having more breweries contributes to better quality beers, possibly due to increased competition, a greater exchange of brewing techniques, or a wider selection for consumers.
+
+**Correlation Between Style Diversity and Average Overall Rating:** The correlation coefficient is 0.306. This is a positive but relatively weak correlation. It indicates that a greater diversity of beer styles has some association with higher average overall ratings, but other factors may play a more significant role in determining beer quality. This could mean that simply having a wide variety of beer styles is not a strong predictor of overall beer quality as perceived by consumers or critics.
+
+
+
 ## IBR - International Beer Relations
 
 ###  **Exploring the Geography of Beer**
