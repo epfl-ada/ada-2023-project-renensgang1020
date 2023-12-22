@@ -51,3 +51,58 @@ Our next steps involve deep dives into understanding the favorite beer styles in
 This initial stage sets the groundwork for our exploration into the "Beer Nations." It's a celebration of diversity, both in beer styles and in the global community of those who love them. Let's raise our glasses to the insights awaiting us in the pages ahead!
 
 
+## Question 2: IBR - International Beer Relations
+
+### 🌐 **Exploring the Geography of Beer**
+
+#### **Understanding International Beer Dynamics**
+In our quest to explore the international relations in the beer world, we delve into four intriguing aspects:
+1. The origins of the majority of ratings for each nation's beers.
+2. The global popularity of certain countries' beers.
+3. The existence of a 'Beer Union' - countries mutually appreciative of each other's brews.
+4. The presence of domestic beer pride - do users favor beers brewed in their home country?
+
+#### **Data Cleaning and Preparation**
+Before delving into these questions, our first step is meticulous data cleaning and preparation. By mapping user and brewery locations to our ratings dataset, we distinguish between local and international ratings, setting the stage for a nuanced analysis.
+
+### 🌎 **Local vs. International Beer Appreciation: A Closer Look**
+
+#### **The American Influence in Beer Ratings**
+A striking aspect of our data analysis reveals the substantial influence of the United States in the beer rating world. This dominance is twofold:
+- **Domestic Ratings**: American users lead in reviewing beers produced within the United States, with an astonishing 472,769 ratings.
+- **International Focus**: Interestingly, American users are also prolific in rating international beers. A notable example is Belgian beers, which received 51,241 ratings from U.S. users.
+
+#### **Top Rating Dynamics**
+The analysis uncovers the top types of beer ratings based on their volume, illustrating a clear trend in user preferences and access:
+- **U.S. Dominance in Domestic Reviews**: The majority of reviews are from U.S. users rating U.S. beers, indicating a strong domestic market.
+- **Cross-Cultural Appreciation**: Belgian beers are highly rated by U.S. users, second only to their domestic ratings, suggesting a keen American interest in Belgian brews.
+- **Canadian and UK Loyalties**: Canadian users predominantly rate Canadian beers (46,059 ratings), and UK users show a similar trend with 32,263 ratings for UK beers.
+
+#### **Understanding Review Patterns**
+This pattern where most reviews for each brewery come from users in the same country aligns with expectations - domestic users typically have greater access to their local brews. However, the dataset shows a significant skew towards U.S. users, reflected in the volume of their reviews, both domestic and international.
+
+#### **Implications of Data Skew**
+Such a skew suggests that the dataset may not fully represent global beer preferences but is heavily influenced by American users' activity on the review website. For instance, while there are more reviews of Belgian beers by U.S. users than by Belgians themselves, this likely reflects the higher number of American users on the platform rather than a definitive statement about the popularity of Belgian beers in the U.S.
+
+#### **Mapping Beer Diplomacy**
+By visualizing these international beer relations, we shed light on how beer appreciation transcends borders. The web of ratings paints a picture of global beer diplomacy.
+
+### 🍻 **Which Country’s Beers Win Hearts Worldwide?**
+Our analysis uncovers that Belgium, the US, and the UK lead in terms of international review counts. However, when we consider the proportion of international reviews, non-English speaking countries surprisingly emerge as significant players in the global beer scene.
+
+#### **A Deeper Dive into Popularity**
+We also examine the average ratings of beers on an international scale. This approach reveals countries like Malaysia and Tanzania receiving high international acclaim, suggesting a niche but significant global presence.
+
+### 🌐 **Uncovering the Beer Union**
+To probe the existence of a 'Beer Union', we utilize network analysis. This method illustrates the beer rating relationships between countries. Interestingly, the data reveals isolated instances of mutual beer appreciation rather than a broad 'Beer Union'. The United States, due to the data skew, appears as a central node in this network.
+
+### 🏆 **Domestic Beer Pride: A Statistical Analysis**
+Lastly, we address the bias towards domestic beers. Our statistical analysis, including a Welch's t-test, indicates a marginal but statistically significant preference for domestic beers. The domestic ratings slightly edge out the international ones, affirming the subtle influence of national pride in beer ratings.
+
+#### **Visual and Statistical Tools**
+In our endeavor to understand this domestic preference, we employ a combination of histograms, Q-Q plots, and t-tests. These tools collectively strengthen our conclusion about the domestic rating bias.
+
+
+
+
+
