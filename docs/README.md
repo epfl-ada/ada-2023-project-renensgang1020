@@ -61,13 +61,13 @@ The United States leads significantly in brewery count (41,152) and style divers
 ### ***Now let's look at the ratings by country***
 Some countries might excel in specific aspects, like the robust taste profiles of Belgian ales or the refined appearance of German lagers. This analysis will help in understanding which countries' beers are most favored by enthusiasts and critics alike.
 
-![q1_2](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q1_2.png)
+![q1_2](assets/img/q1_2.png)
 
 Slovenia, with high average ratings across taste, aroma, appearance, palate, and overall (around 4.6 for taste and aroma), suggests an exceptionally high quality of beer, potentially indicating a niche, high-quality beer market. Japan's high ratings (average taste rating of 4.5) indicate a preference for quality and unique flavors in their beer industry. The presence of countries like Malaysia and Tanzania with higher-than-expected ratings might suggest emerging markets with developing tastes or unique local beer styles gaining popularity.
 
 ### ***Let's now analyse the popular beer styles by country***
 The results might reflect traditional preferences, like the popularity of stouts in Ireland or IPAs in the United States, or could uncover emerging trends in global beer tastes.
-![q1_3](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q1_3.png)
+![q1_3](assets/img/q1_3.png)
 
 
 The United States shows a diverse range of popular beer styles with high ratings, especially for American IPA (average rating of 3.98) and Imperial Stout (3.86). This diversity reflects the dynamic and innovative nature of the American beer market. The UK and Belgium also show diversity in popular styles, with high ratings in categories like Imperial Stout and Belgian Strong Ale, reflecting their traditional strengths. The data reflects a blend of traditional and modern styles, indicating a global trend towards variety and experimentation in beer production.
@@ -75,7 +75,7 @@ The United States shows a diverse range of popular beer styles with high ratings
 ### ***Finally, let's try to find a correlation between breweries, diversity and ranking***
 An analysis of the correlation between the number of breweries, diversity of beer types, and overall beer ratings in each country is an insightful undertaking. This involves examining whether countries with more breweries and a wider range of beer styles tend to have higher overall ratings for their beers. Such a correlation, if present, could suggest that a vibrant, competitive brewing scene fosters higher quality and innovation in beer production.
 
-![q1_4](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q1_4.png)
+![q1_4](assets/img/q1_4.png)
 
 **Correlation Between Brewery Count and Style Diversity:** The correlation coefficient is 0.707. This is a strong positive correlation, suggesting that countries with more breweries tend to also have a greater diversity of beer styles. This relationship implies that as the beer industry in a country expands in terms of the number of breweries, there is a parallel increase in the variety of beer styles produced. It indicates a thriving beer culture where expansion leads to innovation and variety.
 
@@ -101,7 +101,7 @@ Before delving into these questions, our first step is meticulous data cleaning 
 
 ### **Local vs. International Beer Appreciation: A Closer Look**
 
-![Top_3 rating counts for user countries](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/ratings_user_country_top_3.png)
+![Top_3 rating counts for user countries](assets/img/ratings_user_country_top_3.png)
 
 #### **The American Influence in Beer Ratings**
 A striking aspect of our data analysis reveals the substantial influence of the United States in the beer rating world. This dominance is twofold:
@@ -122,7 +122,7 @@ Such a skew suggests that the dataset may not fully represent global beer prefer
 
 #### **Mapping Beer Diplomacy**
 By visualizing these international beer relations, we shed light on how beer appreciation transcends borders. The web of ratings paints a picture of global beer diplomacy.
-![map](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/map.png)
+![map](assets/img/map.png)
 
 ###  **Which Country’s Beers Win Hearts Worldwide?**
 Our analysis uncovers that Belgium, the US, and the UK lead in terms of international review counts. However, when we consider the proportion of international reviews, non-English speaking countries surprisingly emerge as significant players in the global beer scene.
@@ -134,12 +134,12 @@ Our analysis uncovers that Belgium, the US, and the UK lead in terms of internat
 #### **Diving into Global Beer Appreciation**
 In our exploration of international beer ratings, we first examine countries with the highest volume of reviews. Additionally, we compare these figures with the number of international reviews these countries receive. This analysis is crucial to understanding the global reach and appeal of various beers.
 
-![brewery_location_rating_count](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/brewery_location_rating_count.png)
+![brewery_location_rating_count](assets/img/brewery_location_rating_count.png)
 
 #### **Belgium's Dominance in International Reviews**
 It's interesting to note that Belgian beers lead in international reviews, followed by the United States and the United Kingdom. This indicates a significant global interest in Belgian beers, reflecting their widespread popularity and appeal.
 
-![proportion_international](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/proportion.png)
+![proportion_international](assets/img/proportion.png)
 
 #### **Proportional Analysis of International Reviews**
 An intriguing aspect of our analysis is looking at the proportion of international reviews in relation to total reviews. Here, we observe that non-English speaking countries generally have a higher proportion of international beer reviews. This trend is particularly notable given that the dataset predominantly consists of English-language reviews, yet it showcases the global appeal of beers from various linguistic backgrounds.
@@ -149,7 +149,7 @@ Despite the United States having a high number of international reviews, its pro
 
 ### **International Review Ratings**
 
-![mean_rating_by_country](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/brewery_location_mean_rating.png)
+![mean_rating_by_country](assets/img/brewery_location_mean_rating.png)
 
 #### **Global Scale of Beer Popularity**
 Moving beyond just review counts, we delve into another dimension of beer popularity - the average ratings that beers receive abroad. We hypothesize that higher ratings correlate with greater preference and popularity.
@@ -182,7 +182,7 @@ Here's how we're mapping this out:
 
 ### **Visualizing International Beer Connections**
 
-![relationship_network](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/relationships.png)
+![relationship_network](assets/img/relationships.png)
 
 #### **The United States: A Central Node**
 Our network graph is quite revealing, especially when we apply a high threshold for average beer ratings (3.75). It turns out, the United States is a major player, acting as the predominant node. This centrality reflects the American-centric nature of our data sources.
@@ -214,7 +214,7 @@ Interestingly, the average domestic rating is slightly higher than the internati
 
 ### **Statistical Significance: Is the Difference Real?**
 
-![Q-Q plots and distribution](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/image.png)
+![Q-Q plots and distribution](assets/img/image.png)
 
 #### **Putting the Numbers to the Test**
 To determine if this difference is just by chance or something more, we're performing a Welch's t-test. This test helps us figure out if the difference in ratings is statistically significant.
@@ -239,7 +239,7 @@ To gain an initial advantage, we begin by identifying the top 10 users boasting 
 
 
 
-![q3_boxplt](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q3_boxplt.png)
+![q3_boxplt](assets/img/q3_boxplt.png)
 
 
 #### ***How are we going to identify nice users ?*** 
@@ -260,7 +260,7 @@ Coincidentally, the sentimental scale utilized by this classifier ranges from 0 
 As a preliminary sanity check, we initiate the analysis by selecting a compact subset comprising the initial five users from the collected nice users in the previous step. This judicious choice allows us to focus on a manageable sample size for thorough examination. By scrutinizing the sentiment analysis results of these users, we aim to ensure the reliability and coherence of the derived sentimental information. This preliminary step lays the groundwork for a more extensive evaluation of the entire 'nice_users' list, affirming the robustness of our approach in identifying consistently positive contributors based on both user ratings and sentiment analysis of their reviews.
 The resulting distributions can be seen below: 
 
-![q_3violon1](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q_3violon1.png)
+![q_3violon1](assets/img/q_3violon1.png)
 
 
 ### 📝***Lets Correcting reviewers niceness by a balancing formula***
@@ -272,7 +272,7 @@ In cases where a reviewer exhibits a tendency to overrate, as evidenced by dispa
 This nuanced approach allows for a dynamic adjustment, enabling the calibration of the interpolated rating to the unique reviewing tendencies of each user. By incorporating sentiment analysis alongside numerical ratings, this metric provides a more comprehensive and balanced evaluation of the user's overall sentiment towards the beers they review.
 The final comparison of the initial ratings, sentimental analysis score on the text, and the interpolated rating  can be found below:
 
-![q_3violon2](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q_3violon2.png)
+![q_3violon2](assets/img/q_3violon2.png)
 
 
 ### ***How does the interpolated ratings effect the beer nations***
