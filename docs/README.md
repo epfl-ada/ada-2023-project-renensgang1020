@@ -238,10 +238,6 @@ These findings shed light on the subtle ways in which national pride and local p
 
 To gain an initial advantage, we begin by identifying the top 10 users boasting the highest volume of reviews, and proceed to visualize the distribution of their ratings. This preliminary examination serves as a swift and essential sanity check.
 
-Top users based on their number of reviews:
-![q3_4](assets/img/q3_4.png)
-
-
 Top 10 users in terms of the number of reviews in order to get do a qualitative visual comparasion of their rating statistics:
 ![q3_boxplt](assets/img/q3_boxplt.png)
 
