@@ -28,6 +28,8 @@ So, let's raise our glasses to a journey of discovery, where data meets draughts
 #### **The Source**
 Our journey into the world of beer ratings begins with the data sourced from RateBeer, an American website celebrated for its comprehensive and accurate information on beer. RateBeer has established itself as a pivotal online community for craft beer enthusiasts, focusing on beer education and unbiased ratings.
 
+https://www.ratebeer.com/
+
 #### **Rating Dynamics**
 On RateBeer, users can rate beers across four key aspects: appearance, aroma, palate, and taste. Additionally, they can provide textual reviews to share their nuanced opinions. Crucially, users can also disclose their country of origin, offering us a valuable dimension for analysis.
 
