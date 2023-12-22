@@ -107,7 +107,7 @@ In our endeavor to understand this domestic preference, we employ a combination 
 
 ## Question: 3 Are beer reviewers the biggest bias?
 
-#### *** Lets take a closer look at the ratings data *** 
+#### ***Lets take a closer look at the ratings data*** 
 
 To gain an initial advantage, we begin by identifying the top 10 users boasting the highest volume of reviews, and proceed to visualize the distribution of their ratings. This preliminary examination serves as a swift and essential sanity check, offering valuable insights into the diverse rating patterns exhibited by these influential contributors. By delving into the nuances of their rating distributions, we lay the foundation for a more comprehensive analysis, aiming to unravel noteworthy trends and variations that may shape our understanding of user preferences and experiences.
 
@@ -116,7 +116,7 @@ To gain an initial advantage, we begin by identifying the top 10 users boasting 
 ![q3_boxplt](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q3_boxplt.png)
 
 
-#### *** How are we going to identify nice users ? *** 
+#### ***How are we going to identify nice users ?*** 
 
 We establish the criteria for categorizing users as 'nice users,' defined as individuals who consistently provide ratings above a specified threshold. The process involves the following steps:
 Rating Threshold Definition: Initially, we set a rating threshold (3/5), considering ratings above this threshold as 'good.'
@@ -139,7 +139,7 @@ The resulting distributions can be seen below:
 
 ### ***Lets Correcting reviewers niceness by a balancing formula***
 The introduction of the interpolated rating (ir) as a balancing metric serves as a pivotal step in reconciling the potential biases inherent in reviewer assessments. This metric, encapsulated by the formula :
-***ir =rating⋅(1−α)+sentiment_rating⋅α***
+**ir =rating⋅(1−α)+sentiment_rating⋅α**
 This elegantly blends the numerical ratings provided by users with the sentiment analysis scores derived from their textual reviews.
 The choice of the balancing coefficient αα is pivotal in fine-tuning the interpolation process. When the distributions of ratings and sentiment_rating closely align, α assumes a neutral value of 0.5. This signifies a balanced contribution of both numerical scores and sentiment analysis to the interpolated rating.
 In cases where a reviewer exhibits a tendency to overrate, as evidenced by disparities in the distributions of ratings and sentiment_rating, α takes a value greater than 0.5. Conversely, if a reviewer tends to underrate based on distribution differences, α is set to a value less than 0.5.
