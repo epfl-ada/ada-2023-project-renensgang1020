@@ -118,6 +118,9 @@ Moving beyond just review counts, we delve into another dimension of beer popula
 #### **Surprises in International Ratings**
 An analysis of the top countries in terms of average international ratings brings some unexpected results. Countries traditionally not known as major beer nations are leading in popularity, according to international ratings.
 
+#### **Surprises in International Ratings**
+We 
+
 #### **Iran's Unique Position**
 One of the most surprising findings is Iran's position as a highly-rated beer nation based on international ratings. Considering that the production and distribution of alcoholic beer have been illegal in Iran since 1979, this high ranking is attributed to non-alcoholic beers. Iran's presence in this list highlights the diverse and sometimes unexpected trends in global beer appreciation.
 
@@ -125,11 +128,66 @@ One of the most surprising findings is Iran's position as a highly-rated beer na
 ### 🌐 **Uncovering the Beer Union**
 To probe the existence of a 'Beer Union', we utilize network analysis. This method illustrates the beer rating relationships between countries. Interestingly, the data reveals isolated instances of mutual beer appreciation rather than a broad 'Beer Union'. The United States, due to the data skew, appears as a central node in this network.
 
-### 🏆 **Domestic Beer Pride: A Statistical Analysis**
-Lastly, we address the bias towards domestic beers. Our statistical analysis, including a Welch's t-test, indicates a marginal but statistically significant preference for domestic beers. The domestic ratings slightly edge out the international ones, affirming the subtle influence of national pride in beer ratings.
+## 🌍 Is There a Beer Union? Exploring Mutual Enthusiasm for Beer
 
-#### **Visual and Statistical Tools**
-In our endeavor to understand this domestic preference, we employ a combination of histograms, Q-Q plots, and t-tests. These tools collectively strengthen our conclusion about the domestic rating bias.
+### **Beer Diplomacy: Understanding Global Beer Relationships**
+
+#### **Mapping the World of Beer Appreciation**
+We've explored the geography of beer through our dataset, but let's switch gears to the diplomacy of beer. Is there a sense of mutual appreciation among countries for each other's beers? To find out, we're venturing into a unique network analysis.
+
+#### **Creating a Global Beer Network**
+Here's how we're mapping this out:
+- **Nodes Represent Countries**: Each country in our dataset becomes a node in our network.
+- **Edges Symbolize Beer Relationships**: The connections between these countries (edges) represent the beer rating relationships.
+- **Average Ratings as Edge Weights**: These connections are weighted based on the average rating users from one country give to beers from another.
+
+### **Visualizing International Beer Connections**
+
+#### **The United States: A Central Node**
+Our network graph is quite revealing, especially when we apply a high threshold for average beer ratings (3.75). It turns out, the United States is a major player, acting as the predominant node. This centrality reflects the American-centric nature of our data sources.
+
+#### **Selective International Beer Appreciation**
+The connections we observe in the graph are quite selective. The sparse but present connections between the U.S. and various other countries hint at a selective international appreciation for quality beers.
+
+#### **Isolated Pockets of Mutual Beer Enthusiasm**
+Contrary to the idea of a widespread 'Beer Union', the network shows isolated pockets of mutual beer enthusiasm. Inter-country connections outside the U.S. are few, suggesting that while there are instances of mutual appreciation, they are not as widespread as one might have initially thought.
+
+#### **Rethinking the 'Beer Union' Concept**
+The concept of a 'Beer Union', where countries broadly appreciate each other's beers, seems more idealistic than realistic! This exploration into beer diplomacy opens up new perspectives on how different countries interact over a shared love for beer. While the connections may not be as extensive as a union, they certainly paint an interesting picture of global beer dynamics.
+
+
+## 🍻 Is There Domestic Beer Pride? Analyzing Home Country Bias in Beer Ratings
+
+### **Exploring the Bias Towards Domestic Beers**
+
+#### **The Concept of Local Pride in Beer Ratings**
+It's common for people to support and enjoy products from their own country, and this includes beer. But does this lead to a bias in how they rate domestic beers compared to international ones? Let's dive into the data and compare the average ratings for domestic and international beers to find out.
+
+### **Breaking Down the Ratings**
+
+#### **Comparing Average Ratings: Domestic vs. International**
+Here's what we found:
+- **Average Domestic Rating**: 3.5005
+- **Average International Rating**: 3.4876
+
+Interestingly, the average domestic rating is slightly higher than the international rating. While this margin might seem small, it points towards a subtle preference for domestic beers.
+
+### **Statistical Significance: Is the Difference Real?**
+
+#### **Putting the Numbers to the Test**
+To determine if this difference is just by chance or something more, we're performing a Welch's t-test. This test helps us figure out if the difference in ratings is statistically significant.
+
+#### **Results of the Welch's T-Test**
+Given our large sample size and the robustness of Welch's t-test (which can handle unequal variances and deviations from normality), the test concludes that the difference in ratings is indeed statistically significant.
+
+### **Conclusions on Domestic Beer Ratings**
+
+#### **Understanding the Preference for Local Brews**
+This analysis suggests that there is indeed a slight but real bias towards domestic beers. Users seem to rate beers from their home country marginally higher than those from other countries.
+
+#### **Reflecting on Beer Rating Behavior**
+These findings shed light on the subtle ways in which national pride and local preference can influence our perceptions and ratings of beer. It's a fascinating glimpse into the psychological aspects of beer appreciation that go beyond just taste and quality.
+
 
 ## Question: 3 Are beer reviewers the biggest bias?
 
