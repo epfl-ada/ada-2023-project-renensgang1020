@@ -76,19 +76,18 @@ Embark on a frothy journey as we delve into the world of beer reviews, unearthin
 
 - Christopher
    	- [x] Refining and additions to README and Code
-   	- [ ] Investigating & Concluding Q1/2
+   	- [x] Investigating & Concluding Q1/2
 - Eymeric
 	- [x] Investigate Q1/2 , data assessment
- 	- [ ] Concluding Q2
+ 	- [x] Concluding Q2
 - Konstantin
 	- [x] Creation of the P2 README.md: Writing of abstract, research questions and methods
-	- [ ] Data analysis & Concluding Q1
+	- [x] Data analysis & Concluding Q1
 - Nina
-  	- [x] Creation of main reseach proposal, investigate Q3
-  	- [ ] Website creation and design and refining.
+  	- Left the team before HW2
 - Parsa
 	- [x] Investigate Q3, data assessment
- 	- [ ] Concluding Q3  
+ 	- [x] Concluding Q3  
 
 ## ❓ Questions for TAs
 
