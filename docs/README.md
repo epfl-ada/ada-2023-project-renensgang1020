@@ -107,7 +107,7 @@ In our endeavor to understand this domestic preference, we employ a combination 
 
 ## Question: 3 Are beer reviewers the biggest bias?
 
-#### ***Lets take a closer look at the ratings data*** 
+#### 📚***Lets take a closer look at the ratings data*** 
 
 To gain an initial advantage, we begin by identifying the top 10 users boasting the highest volume of reviews, and proceed to visualize the distribution of their ratings. This preliminary examination serves as a swift and essential sanity check, offering valuable insights into the diverse rating patterns exhibited by these influential contributors. By delving into the nuances of their rating distributions, we lay the foundation for a more comprehensive analysis, aiming to unravel noteworthy trends and variations that may shape our understanding of user preferences and experiences.
 
@@ -137,7 +137,7 @@ The resulting distributions can be seen below:
 ![q_3violon1](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q_3violon1.png)
 
 
-### ***Lets Correcting reviewers niceness by a balancing formula***
+### 📝***Lets Correcting reviewers niceness by a balancing formula***
 The introduction of the interpolated rating (ir) as a balancing metric serves as a pivotal step in reconciling the potential biases inherent in reviewer assessments. This metric, encapsulated by the formula :
 **ir =rating⋅(1−α)+sentiment_rating⋅α**
 This elegantly blends the numerical ratings provided by users with the sentiment analysis scores derived from their textual reviews.
@@ -149,7 +149,7 @@ The final comparison of the initial ratings, sentimental analysis score on the t
 ![q_3violon2](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q_3violon2.png)
 
 
-### ***How does the interpolated ratings effect the beer nations***
+### 🌐***How does the interpolated ratings effect the beer nations***
 
 Unfortunately, the extension of this balancing metric to the entire dataset was impeded by constraints on computational resources. Consequently, we were unable to replicate the analysis conducted in the initial step, hindering our ability to observe the impact of the balanced ratings on the results and draw comparisons with the initial findings. Despite this constraint, the localized application of the balancing metric to a subset or specific user categories could still yield valuable insights and provide a foundation for future analyses..
 
