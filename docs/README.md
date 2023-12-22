@@ -113,8 +113,7 @@ To gain an initial advantage, we begin by identifying the top 10 users boasting 
 
 
 
-/// insert image box plot 
-![Top_3 rating counts for user countries](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/ratings_user_country_top_3.png)
+![q3_boxplt](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q3_boxplt.png)
 
 
 #### *** How are we going to identify nice users ? *** 
@@ -135,8 +134,7 @@ Coincidentally, the sentimental scale utilized by this classifier ranges from 0 
 As a preliminary sanity check, we initiate the analysis by selecting a compact subset comprising the initial five users from the collected nice users in the previous step. This judicious choice allows us to focus on a manageable sample size for thorough examination. By scrutinizing the sentiment analysis results of these users, we aim to ensure the reliability and coherence of the derived sentimental information. This preliminary step lays the groundwork for a more extensive evaluation of the entire 'nice_users' list, affirming the robustness of our approach in identifying consistently positive contributors based on both user ratings and sentiment analysis of their reviews.
 The resulting distributions can be seen below: 
 
-/// insert violon2 
-![Top_3 rating counts for user countries](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/ratings_user_country_top_3.png)
+![q_3violon1](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q_3violon1.png)
 
 
 ### ***Lets Correcting reviewers niceness by a balancing formula***
@@ -148,8 +146,7 @@ In cases where a reviewer exhibits a tendency to overrate, as evidenced by dispa
 This nuanced approach allows for a dynamic adjustment, enabling the calibration of the interpolated rating to the unique reviewing tendencies of each user. By incorporating sentiment analysis alongside numerical ratings, this metric provides a more comprehensive and balanced evaluation of the user's overall sentiment towards the beers they review.
 The final comparison of the initial ratings, sentimental analysis score on the text, and the interpolated rating  can be found below:
 
-///insert violon3 
-![Top_3 rating counts for user countries](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/ratings_user_country_top_3.png)
+![q_3violon2](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q_3violon2.png)
 
 
 ### ***How does the interpolated ratings effect the beer nations***
