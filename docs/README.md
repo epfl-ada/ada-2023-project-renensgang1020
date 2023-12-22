@@ -105,7 +105,49 @@ Lastly, we address the bias towards domestic beers. Our statistical analysis, in
 #### **Visual and Statistical Tools**
 In our endeavor to understand this domestic preference, we employ a combination of histograms, Q-Q plots, and t-tests. These tools collectively strengthen our conclusion about the domestic rating bias.
 
+## Question: 3 Are beer reviewers the biggest bias?
+
+#### *** Lets take a closer look at the ratings data *** 
+
+To gain an initial advantage, we begin by identifying the top 10 users boasting the highest volume of reviews, and proceed to visualize the distribution of their ratings. This preliminary examination serves as a swift and essential sanity check, offering valuable insights into the diverse rating patterns exhibited by these influential contributors. By delving into the nuances of their rating distributions, we lay the foundation for a more comprehensive analysis, aiming to unravel noteworthy trends and variations that may shape our understanding of user preferences and experiences.
 
 
 
+/// insert image box plot 
+
+#### *** How are we going to identify nice users ? *** 
+
+We establish the criteria for categorizing users as 'nice users,' defined as individuals who consistently provide ratings above a specified threshold. The process involves the following steps:
+Rating Threshold Definition: Initially, we set a rating threshold (3/5), considering ratings above this threshold as 'good.'
+Counting 'Bad' Ratings: Subsequently, we tally the number of 'bad' ratings (those falling below the defined threshold) for each user. We compute the ratio of 'bad' ratings to the total number of ratings per user.
+Percentage Threshold Application: If the computed ratio is below a predetermined percentage threshold (set at 15%), the user qualifies as a potential 'nice user.'
+Consistency Check - ADF Test: To further ascertain if the user consistently provides good ratings, we conduct an Augmented Dickey-Fuller (ADF) test on the user's rating data. The Null Hypothesis of the ADF test posits that the time series is non-stationary. Consequently, a sufficiently small P-value leads to the rejection of the null hypothesis.
+Nice User Identification: Users meeting the criteria in steps 3 and 4 are identified as nice users.
+This comprehensive approach ensures a rigorous evaluation of users based on both their rating patterns and the statistical properties of their rating time series, contributing to the identification of consistently positive contributors to the platform. The above analysis results in a total of 1419 nice users. 
+
+
+### ***Sentimental analysis on text reviews is a viable solution***
+he extraction of sentimental information from reviewer texts is achieved through a meticulous process, calibrated to a scale comparable to the user ratings assigned to the beers. To demonstrate the viability of this methodology, we have opted to analyze the reviews of a single user, with the understanding that the approach is scalable to the entire dataset.
+In this endeavor, we employ the BERT Multilingual Sentiment Analysis pretrained model. This robust model has undergone training on Wikipedia pages across 104 languages, ensuring a broad linguistic coverage. The selection of this model is deliberate, driven by the objective of encompassing diverse languages within the dataset. For further details on BERT Multilingual Sentiment Analysis, refer to: BERT Multilingual Sentiment Analysis.
+Coincidentally, the sentimental scale utilized by this classifier ranges from 0 to 5, mirroring the scale of beer ratings. It is noteworthy that, while both scales share the same range, the sentimental classification is categorical in nature. This alignment facilitates a seamless comparison between the sentiments derived from the reviews and the numerical beer ratings, enhancing the interpretability of the analysis. The proof of concept, focusing on a single user, serves as a compelling illustration of the method's potential, which can be effortlessly extended to encompass the entirety of the dataset
+As a preliminary sanity check, we initiate the analysis by selecting a compact subset comprising the initial five users from the collected nice users in the previous step. This judicious choice allows us to focus on a manageable sample size for thorough examination. By scrutinizing the sentiment analysis results of these users, we aim to ensure the reliability and coherence of the derived sentimental information. This preliminary step lays the groundwork for a more extensive evaluation of the entire 'nice_users' list, affirming the robustness of our approach in identifying consistently positive contributors based on both user ratings and sentiment analysis of their reviews.
+The resulting distributions can be seen below: 
+
+/// insert violon2 
+
+
+### ***Lets Correcting reviewers niceness by a balancing formula***
+The introduction of the interpolated rating (ir) as a balancing metric serves as a pivotal step in reconciling the potential biases inherent in reviewer assessments. This metric, encapsulated by the formula :
+***ir =rating⋅(1−α)+sentiment_rating⋅α***
+This elegantly blends the numerical ratings provided by users with the sentiment analysis scores derived from their textual reviews.
+The choice of the balancing coefficient αα is pivotal in fine-tuning the interpolation process. When the distributions of ratings and sentiment_rating closely align, α assumes a neutral value of 0.5. This signifies a balanced contribution of both numerical scores and sentiment analysis to the interpolated rating.
+In cases where a reviewer exhibits a tendency to overrate, as evidenced by disparities in the distributions of ratings and sentiment_rating, α takes a value greater than 0.5. Conversely, if a reviewer tends to underrate based on distribution differences, α is set to a value less than 0.5.
+This nuanced approach allows for a dynamic adjustment, enabling the calibration of the interpolated rating to the unique reviewing tendencies of each user. By incorporating sentiment analysis alongside numerical ratings, this metric provides a more comprehensive and balanced evaluation of the user's overall sentiment towards the beers they review.
+The final comparison of the initial ratings, sentimental analysis score on the text, and the interpolated rating  can be found below:
+
+///insert violon3 
+
+### *** How does the interpolated ratings effect the beer nations ***
+
+Unfortunately, the extension of this balancing metric to the entire dataset was impeded by constraints on computational resources. Consequently, we were unable to replicate the analysis conducted in the initial step, hindering our ability to observe the impact of the balanced ratings on the results and draw comparisons with the initial findings. Despite this constraint, the localized application of the balancing metric to a subset or specific user categories could still yield valuable insights and provide a foundation for future analyses..
 
