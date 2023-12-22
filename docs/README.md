@@ -235,7 +235,7 @@ These findings shed light on the subtle ways in which national pride and local p
 
 #### ***Lets take a closer look at the ratings data*** 
 
-To gain an initial advantage, we begin by identifying the top 10 users boasting the highest volume of reviews, and proceed to visualize the distribution of their ratings. This preliminary examination serves as a swift and essential sanity check, offering valuable insights into the diverse rating patterns exhibited by these influential contributors. By delving into the nuances of their rating distributions, we lay the foundation for a more comprehensive analysis, aiming to unravel noteworthy trends and variations that may shape our understanding of user preferences and experiences.
+To gain an initial advantage, we begin by identifying the top 10 users boasting the highest volume of reviews, and proceed to visualize the distribution of their ratings. This preliminary examination serves as a swift and essential sanity check.
 
 
 
@@ -245,11 +245,13 @@ To gain an initial advantage, we begin by identifying the top 10 users boasting 
 #### ***How are we going to identify nice users ?*** 
 
 We establish the criteria for categorizing users as 'nice users,' defined as individuals who consistently provide ratings above a specified threshold. The process involves the following steps:
-Rating Threshold Definition: Initially, we set a rating threshold (3/5), considering ratings above this threshold as 'good.'
-Counting 'Bad' Ratings: Subsequently, we tally the number of 'bad' ratings (those falling below the defined threshold) for each user. We compute the ratio of 'bad' ratings to the total number of ratings per user.
-Percentage Threshold Application: If the computed ratio is below a predetermined percentage threshold (set at 15%), the user qualifies as a potential 'nice user.'
-Consistency Check - ADF Test: To further ascertain if the user consistently provides good ratings, we conduct an Augmented Dickey-Fuller (ADF) test on the user's rating data. The Null Hypothesis of the ADF test posits that the time series is non-stationary. Consequently, a sufficiently small P-value leads to the rejection of the null hypothesis.
-Nice User Identification: Users meeting the criteria in steps 3 and 4 are identified as nice users.
+- Rating Threshold Definition: Initially, we set a rating threshold (3/5), considering ratings above this threshold as 'good.'
+- Counting 'Bad' Ratings: Subsequently, we tally the number of 'bad' ratings (those falling below the defined threshold) for each user. We compute the ratio of 'bad' ratings to the total number of ratings per user.
+- Percentage Threshold Application: If the computed ratio is below a predetermined percentage threshold (set at 15%), the user qualifies as a potential 'nice user.'
+Consistency Check
+- ADF Test: To further ascertain if the user consistently provides good ratings, we conduct an Augmented Dickey-Fuller (ADF) test on the user's rating data. The Null Hypothesis of the ADF test posits that the time series is non-stationary. Consequently, a sufficiently small P-value leads to the rejection of the null hypothesis.
+- Nice User Identification: Users meeting the criteria in steps 3 and 4 are identified as nice users.
+
 This comprehensive approach ensures a rigorous evaluation of users based on both their rating patterns and the statistical properties of their rating time series, contributing to the identification of consistently positive contributors to the platform. The above analysis results in a total of 1419 nice users. 
 
 
