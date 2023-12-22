@@ -136,7 +136,7 @@ Our analysis uncovers that Belgium, the US, and the UK lead in terms of internat
 #### **Diving into Global Beer Appreciation**
 In our exploration of international beer ratings, we first examine countries with the highest volume of reviews. Additionally, we compare these figures with the number of international reviews these countries receive. This analysis is crucial to understanding the global reach and appeal of various beers.
 
-![brewery_location_rating_count](assets/img/brewery_location_rating_count.png)
+![brewery_location_rating_count](assets/beer_rating_couints_by_country.png)
 
 #### **Belgium's Dominance in International Reviews**
 It's interesting to note that Belgian beers lead in international reviews, followed by the United States and the United Kingdom. This indicates a significant global interest in Belgian beers, reflecting their widespread popularity and appeal.
