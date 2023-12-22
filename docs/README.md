@@ -127,7 +127,6 @@ By visualizing these international beer relations, we shed light on how beer app
 ###  **Which Country’s Beers Win Hearts Worldwide?**
 Our analysis uncovers that Belgium, the US, and the UK lead in terms of international review counts. However, when we consider the proportion of international reviews, non-English speaking countries surprisingly emerge as significant players in the global beer scene.
 
-
 ## International Review Count and Proportion
 
 ### **Exploring Global Beer Ratings**
@@ -183,6 +182,8 @@ Here's how we're mapping this out:
 
 ### **Visualizing International Beer Connections**
 
+![relationship_network](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/relationships.png)
+
 #### **The United States: A Central Node**
 Our network graph is quite revealing, especially when we apply a high threshold for average beer ratings (3.75). It turns out, the United States is a major player, acting as the predominant node. This centrality reflects the American-centric nature of our data sources.
 
@@ -194,7 +195,6 @@ Contrary to the idea of a widespread 'Beer Union', the network shows isolated po
 
 #### **Rethinking the 'Beer Union' Concept**
 The concept of a 'Beer Union', where countries broadly appreciate each other's beers, seems more idealistic than realistic! This exploration into beer diplomacy opens up new perspectives on how different countries interact over a shared love for beer. While the connections may not be as extensive as a union, they certainly paint an interesting picture of global beer dynamics.
-
 
 ##  Is There Domestic Beer Pride? Analyzing Home Country Bias in Beer Ratings
 
@@ -213,6 +213,8 @@ Here's what we found:
 Interestingly, the average domestic rating is slightly higher than the international rating. While this margin might seem small, it points towards a subtle preference for domestic beers.
 
 ### **Statistical Significance: Is the Difference Real?**
+
+![Q-Q plots and distribution](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/image.png)
 
 #### **Putting the Numbers to the Test**
 To determine if this difference is just by chance or something more, we're performing a Welch's t-test. This test helps us figure out if the difference in ratings is statistically significant.
