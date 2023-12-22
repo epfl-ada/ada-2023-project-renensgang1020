@@ -99,7 +99,7 @@ In our quest to explore the international relations in the beer world, we delve 
 4. The presence of domestic beer pride - do users favor beers brewed in their home country?
 
 #### **Data Cleaning and Preparation**
-Before delving into these questions, our first step is meticulous data cleaning and preparation. By mapping user and brewery locations to our ratings dataset, we distinguish between local and international ratings, setting the stage for a nuanced analysis.
+Before delving into these questions, our first step is data cleaning and preparation. By mapping user and brewery locations to our ratings dataset, we distinguish between local and international ratings.
 
 ### **Local vs. International Beer Appreciation: A Closer Look**
 
