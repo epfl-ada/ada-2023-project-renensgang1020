@@ -54,7 +54,7 @@ This initial stage sets the groundwork for our exploration into the "Beer Nation
 ### **Let's investigate Beer nations**
 The concept of "Beer Nations" can be explored by examining countries with a high number of breweries and a diverse range of beer styles. Typically, countries like Belgium, Germany, and the United States are renowned for their beer culture. By analyzing the distribution of breweries and the variety of beer styles, we will identify which countries stand out as prominent beer producers and connoisseurs.
 
-![q1_1](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q1_1.png)
+![q1_1](assets/img/q1_1.png)
 
 The United States leads significantly in brewery count (41,152) and style diversity (167). This suggests a highly developed and diverse beer industry, likely offering a wide range of beer experiences from mass-produced to craft and specialty beers. Belgium and Germany, known for their beer culture, show a good balance of brewery count and style diversity (Belgium: 1,369 breweries, 130 styles; Germany: 2,131 breweries, 149 styles). This aligns with their reputation for quality and variety in beer production. High brewery count and style diversity in countries like Canada and the UK also indicate thriving beer industries. The data reveals a correlation between a country's beer culture's maturity and its diversity in beer styles.
 
