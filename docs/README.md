@@ -114,6 +114,8 @@ To gain an initial advantage, we begin by identifying the top 10 users boasting 
 
 
 /// insert image box plot 
+![Top_3 rating counts for user countries](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/ratings_user_country_top_3.png)
+
 
 #### *** How are we going to identify nice users ? *** 
 
@@ -134,6 +136,7 @@ As a preliminary sanity check, we initiate the analysis by selecting a compact s
 The resulting distributions can be seen below: 
 
 /// insert violon2 
+![Top_3 rating counts for user countries](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/ratings_user_country_top_3.png)
 
 
 ### ***Lets Correcting reviewers niceness by a balancing formula***
@@ -146,8 +149,10 @@ This nuanced approach allows for a dynamic adjustment, enabling the calibration 
 The final comparison of the initial ratings, sentimental analysis score on the text, and the interpolated rating  can be found below:
 
 ///insert violon3 
+![Top_3 rating counts for user countries](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/ratings_user_country_top_3.png)
 
-### *** How does the interpolated ratings effect the beer nations ***
+
+### ***How does the interpolated ratings effect the beer nations***
 
 Unfortunately, the extension of this balancing metric to the entire dataset was impeded by constraints on computational resources. Consequently, we were unable to replicate the analysis conducted in the initial step, hindering our ability to observe the impact of the balanced ratings on the results and draw comparisons with the initial findings. Despite this constraint, the localized application of the balancing metric to a subset or specific user categories could still yield valuable insights and provide a foundation for future analyses..
 
