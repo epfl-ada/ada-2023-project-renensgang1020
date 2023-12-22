@@ -93,7 +93,7 @@ By visualizing these international beer relations, we shed light on how beer app
 ###  **Which Country’s Beers Win Hearts Worldwide?**
 Our analysis uncovers that Belgium, the US, and the UK lead in terms of international review counts. However, when we consider the proportion of international reviews, non-English speaking countries surprisingly emerge as significant players in the global beer scene.
 
-#### **A Deeper Dive into Popularity**
+
 ## International Review Count and Proportion
 
 ### **Exploring Global Beer Ratings**
@@ -101,8 +101,12 @@ Our analysis uncovers that Belgium, the US, and the UK lead in terms of internat
 #### **Diving into Global Beer Appreciation**
 In our exploration of international beer ratings, we first examine countries with the highest volume of reviews. Additionally, we compare these figures with the number of international reviews these countries receive. This analysis is crucial to understanding the global reach and appeal of various beers.
 
+![brewery_location_rating_count](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/brewery_location_rating_count.png)
+
 #### **Belgium's Dominance in International Reviews**
 It's interesting to note that Belgian beers lead in international reviews, followed by the United States and the United Kingdom. This indicates a significant global interest in Belgian beers, reflecting their widespread popularity and appeal.
+
+![proportion_international](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/proportion.png)
 
 #### **Proportional Analysis of International Reviews**
 An intriguing aspect of our analysis is looking at the proportion of international reviews in relation to total reviews. Here, we observe that non-English speaking countries generally have a higher proportion of international beer reviews. This trend is particularly notable given that the dataset predominantly consists of English-language reviews, yet it showcases the global appeal of beers from various linguistic backgrounds.
@@ -112,6 +116,8 @@ Despite the United States having a high number of international reviews, its pro
 
 ### **International Review Ratings**
 
+![mean_rating_by_country](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/brewery_location_mean_rating.png)
+
 #### **Global Scale of Beer Popularity**
 Moving beyond just review counts, we delve into another dimension of beer popularity - the average ratings that beers receive abroad. We hypothesize that higher ratings correlate with greater preference and popularity.
 
@@ -119,7 +125,7 @@ Moving beyond just review counts, we delve into another dimension of beer popula
 An analysis of the top countries in terms of average international ratings brings some unexpected results. Countries traditionally not known as major beer nations are leading in popularity, according to international ratings.
 
 #### **Surprises in International Ratings**
-We 
+An analysis of the top countries in terms of average international ratings brings some unexpected results. Countries traditionally not known as major beer nations are leading in popularity, according to international ratings.
 
 #### **Iran's Unique Position**
 One of the most surprising findings is Iran's position as a highly-rated beer nation based on international ratings. Considering that the production and distribution of alcoholic beer have been illegal in Iran since 1979, this high ranking is attributed to non-alcoholic beers. Iran's presence in this list highlights the diverse and sometimes unexpected trends in global beer appreciation.
