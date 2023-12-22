@@ -1,14 +1,14 @@
 # Global Brews, Local Views: Decoding the World's Beer Preferences
 
-## 🍻 **Introduction**
+##  **Introduction**
 
 In an era where globalization blends tastes and traditions, beer remains a distinctive symbol of cultural identity and preference. "Global Brews, Local Views" is a deep dive into the effervescent world of beer reviews, where each sip and each rating tells a story not just about the beer, but also about the reviewer. This project is a journey into understanding how personal biases, cultural backgrounds, and national pride shape our perceptions and ratings of beers from around the globe.
 
-## 🌍 **The Essence of Our Exploration**
+##  **The Essence of Our Exploration**
 
 Our mission is to uncork the hidden dynamics in beer ratings, analyzing how a reviewer's personal preferences, their nationality, and their beer review history might skew their ratings. We're not just studying beers; we're exploring how people's backgrounds and biases influence their taste.
 
-## 🔍 **Structure and Scope of the Journal**
+##  **Structure and Scope of the Journal**
 
 1. **Unveiling Beer Nations**: We will start by mapping out the beer landscape, identifying countries with high average ratings, and understanding how different aspects like taste and appearance contribute to these ratings. This section will also explore if there's a correlation between a country's beer diversity and its ratings.
 
@@ -16,14 +16,14 @@ Our mission is to uncork the hidden dynamics in beer ratings, analyzing how a re
 
 3. **Bias in Beer Reviews**: The final section will delve into the psychology of beer reviewers. Are some reviewers consistently more generous or harsh? We will attempt to adjust for these biases and re-evaluate our earlier findings to see if the landscape of beer nations shifts.
 
-## 📝 **Progress and Reflections**: 
+##  **Progress and Reflections**: 
 This journal will document our progress, challenges, and discoveries. It will be a living record of our exploration into the world of beer ratings, reflecting not only what we learn about beer but also about human nature. Each section will be underpinned by rigorous data analysis. We'll use statistical tools to dissect and interpret the data, ensuring our insights are as robust as they are intriguing.
 
 So, let's raise our glasses to a journey of discovery, where data meets draughts, and insights flow as freely as ale. Welcome to "Global Brews, Local Views"! 🍺
 
 ## Question 1: Where are the Beer Nations?
 
-### 📚 **Understanding the Data**
+###  **Understanding the Data**
 
 #### **The Source**
 Our journey into the world of beer ratings begins with the data sourced from RateBeer, an American website celebrated for its comprehensive and accurate information on beer. RateBeer has established itself as a pivotal online community for craft beer enthusiasts, focusing on beer education and unbiased ratings.
@@ -31,7 +31,7 @@ Our journey into the world of beer ratings begins with the data sourced from Rat
 #### **Rating Dynamics**
 On RateBeer, users can rate beers across four key aspects: appearance, aroma, palate, and taste. Additionally, they can provide textual reviews to share their nuanced opinions. Crucially, users can also disclose their country of origin, offering us a valuable dimension for analysis.
 
-### 🌾 **Sifting Through the Data**
+###  **Sifting Through the Data**
 
 #### **User Participation**
 A preliminary glance reveals a range of user engagement levels. Many users leave only one or a handful of ratings. For our analysis, particularly in identifying favorite beer styles per country, these sporadic ratings offer limited insight.
@@ -39,7 +39,7 @@ A preliminary glance reveals a range of user engagement levels. Many users leave
 #### **Threshold for Inclusion**
 To ensure meaningful and reliable conclusions, we adopt a dual threshold approach. Users with fewer than eight ratings and countries represented by fewer than ten users are filtered out. This balance between data abundance and quality is crucial for our analysis.
 
-### 🌍 **Examining the Remaining Countries**
+###  **Examining the Remaining Countries**
 
 #### **Diverse Participation**
 Post-filtration, we're left with a globally diverse set of countries, each with a significant user base contributing to the beer ratings. This allows us to delve into the data with confidence, knowing that our insights will be representative of a broader spectrum of beer enthusiasts.
@@ -47,13 +47,13 @@ Post-filtration, we're left with a globally diverse set of countries, each with 
 #### **Upcoming Analyses**
 Our next steps involve deep dives into understanding the favorite beer styles in these countries, exploring regional preferences, and uncovering global trends. We aim to paint a picture not just of the beers themselves, but of the cultural and personal preferences that shape the world's beer landscape.
 
-### 🍺 **A Toast to Data-Driven Insights**
+###  **A Toast to Data-Driven Insights**
 This initial stage sets the groundwork for our exploration into the "Beer Nations." It's a celebration of diversity, both in beer styles and in the global community of those who love them. Let's raise our glasses to the insights awaiting us in the pages ahead!
 
 
 ## IBR - International Beer Relations
 
-### 🌐 **Exploring the Geography of Beer**
+###  **Exploring the Geography of Beer**
 
 #### **Understanding International Beer Dynamics**
 In our quest to explore the international relations in the beer world, we delve into four intriguing aspects:
@@ -90,7 +90,7 @@ Such a skew suggests that the dataset may not fully represent global beer prefer
 By visualizing these international beer relations, we shed light on how beer appreciation transcends borders. The web of ratings paints a picture of global beer diplomacy.
 ![map](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/map.png)
 
-### 🍻 **Which Country’s Beers Win Hearts Worldwide?**
+###  **Which Country’s Beers Win Hearts Worldwide?**
 Our analysis uncovers that Belgium, the US, and the UK lead in terms of international review counts. However, when we consider the proportion of international reviews, non-English speaking countries surprisingly emerge as significant players in the global beer scene.
 
 #### **A Deeper Dive into Popularity**
@@ -125,10 +125,10 @@ We
 One of the most surprising findings is Iran's position as a highly-rated beer nation based on international ratings. Considering that the production and distribution of alcoholic beer have been illegal in Iran since 1979, this high ranking is attributed to non-alcoholic beers. Iran's presence in this list highlights the diverse and sometimes unexpected trends in global beer appreciation.
 
 
-### 🌐 **Uncovering the Beer Union**
+###  **Uncovering the Beer Union**
 To probe the existence of a 'Beer Union', we utilize network analysis. This method illustrates the beer rating relationships between countries. Interestingly, the data reveals isolated instances of mutual beer appreciation rather than a broad 'Beer Union'. The United States, due to the data skew, appears as a central node in this network.
 
-## 🌍 Is There a Beer Union? Exploring Mutual Enthusiasm for Beer
+##  Is There a Beer Union? Exploring Mutual Enthusiasm for Beer
 
 ### **Beer Diplomacy: Understanding Global Beer Relationships**
 
@@ -156,7 +156,7 @@ Contrary to the idea of a widespread 'Beer Union', the network shows isolated po
 The concept of a 'Beer Union', where countries broadly appreciate each other's beers, seems more idealistic than realistic! This exploration into beer diplomacy opens up new perspectives on how different countries interact over a shared love for beer. While the connections may not be as extensive as a union, they certainly paint an interesting picture of global beer dynamics.
 
 
-## 🍻 Is There Domestic Beer Pride? Analyzing Home Country Bias in Beer Ratings
+##  Is There Domestic Beer Pride? Analyzing Home Country Bias in Beer Ratings
 
 ### **Exploring the Bias Towards Domestic Beers**
 
@@ -191,7 +191,7 @@ These findings shed light on the subtle ways in which national pride and local p
 
 ## Are beer reviewers the biggest bias?
 
-#### 📚***Lets take a closer look at the ratings data*** 
+#### ***Lets take a closer look at the ratings data*** 
 
 To gain an initial advantage, we begin by identifying the top 10 users boasting the highest volume of reviews, and proceed to visualize the distribution of their ratings. This preliminary examination serves as a swift and essential sanity check, offering valuable insights into the diverse rating patterns exhibited by these influential contributors. By delving into the nuances of their rating distributions, we lay the foundation for a more comprehensive analysis, aiming to unravel noteworthy trends and variations that may shape our understanding of user preferences and experiences.
 
@@ -233,7 +233,7 @@ The final comparison of the initial ratings, sentimental analysis score on the t
 ![q_3violon2](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/q_3violon2.png)
 
 
-### 🌐***How does the interpolated ratings effect the beer nations***
+### ***How does the interpolated ratings effect the beer nations***
 
 Unfortunately, the extension of this balancing metric to the entire dataset was impeded by constraints on computational resources. Consequently, we were unable to replicate the analysis conducted in the initial step, hindering our ability to observe the impact of the balanced ratings on the results and draw comparisons with the initial findings. Despite this constraint, the localized application of the balancing metric to a subset or specific user categories could still yield valuable insights and provide a foundation for future analyses..
 
