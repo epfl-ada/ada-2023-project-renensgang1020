@@ -55,6 +55,8 @@ This initial stage sets the groundwork for our exploration into the "Beer Nation
 
 ### 🌐 **Exploring the Geography of Beer**
 
+![Top_3 rating counts for user countries](https://github.com/epfl-ada/ada-2023-project-renensgang1020/blob/main/docs/assets/img/ratings_user_country_top_3.png)
+
 #### **Understanding International Beer Dynamics**
 In our quest to explore the international relations in the beer world, we delve into four intriguing aspects:
 1. The origins of the majority of ratings for each nation's beers.
@@ -65,7 +67,7 @@ In our quest to explore the international relations in the beer world, we delve 
 #### **Data Cleaning and Preparation**
 Before delving into these questions, our first step is meticulous data cleaning and preparation. By mapping user and brewery locations to our ratings dataset, we distinguish between local and international ratings, setting the stage for a nuanced analysis.
 
-### 🌎 **Local vs. International Beer Appreciation: A Closer Look**
+### **Local vs. International Beer Appreciation: A Closer Look**
 
 #### **The American Influence in Beer Ratings**
 A striking aspect of our data analysis reveals the substantial influence of the United States in the beer rating world. This dominance is twofold:
